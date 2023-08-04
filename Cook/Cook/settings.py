@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "accounts",
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         "NAME": "suhong",  # DB name
         "USER": "root",  # DB account
         "PASSWORD": "Rokmc1218!",  # DB account's password
-        "HOST": "localhost",  # DB address(IP)
+        "HOST": "127.0.0.1",  # DB address(IP)
         "PORT": "3306",  # DB port(normally 3306)
     }
 }
@@ -107,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = "ko-kr"
+LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "Asia/Seoul"
 
