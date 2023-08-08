@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {% extends 'accounts/login.html'%}
+    <div>회원가입 페이지</div>
+    <form action="" method="POST">
+        {% csrf_token %}
+
+        {% for form in forms %}
+        <div>
+            <label for="{{ form.auto_id}}"> {{form.label}} </label>
+            {{form}}
+        </div>
+        {% endfor %}
+
+        <button type="submit" name="register-submit" value="register">회원가입하기</button>
+    </form>
+</body>
