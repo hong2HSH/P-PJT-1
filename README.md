@@ -48,7 +48,7 @@
 - 5일차 (23.08.07)
     Mysql 데이터 연동
 
-    템플릿 틀 생성
+    템플릿 틀(index) 생성
 
     accounts -> user 모델 생성
 
@@ -57,8 +57,20 @@
     메인프로젝트와 accounts어플 사이 url연결 
     
 - 6일차 (23.08.08)
-    accounts -> form 설정
+    form -> RegisterForm 설정
     
-    회원가입(register) html 작성
+    회원가입(register) 템플릿 작성
 
     비밀번호 암호화 설정
+
+- 7일차 (23.08.14)
+    form -> LoginForm 설정
+
+    로그인(login) 템플릿 작성
+
+- 8일차 (23.08.16)
+    form -> Logout 설정
+
+    로그인 세션 설정
+
+    로그아웃(logout) 템플릿 작성
